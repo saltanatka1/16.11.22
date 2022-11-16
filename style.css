@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Great+Vibes&family=Kaushan+Script&family=Roboto:wght@300;400;500;700;900&family=VT323&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+margin: 0;
+}
+nav {
+  background-color: rgba(28, 50, 15, 0.885);
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+nav ul li a{
+  display: inline-block;
+  padding: 15px;
+  color: aliceblue;
+  text-decoration: none ;
+  font-weight: 700;
+  font-family:'Kaushan Script';
+  font-size: 20px;
+}
+nav ul li a:hover{
+  color: red;
+  text-decoration: underline;
+}
