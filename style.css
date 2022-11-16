@@ -7,6 +7,10 @@ margin: 0;
 }
 nav {
   background-color: rgba(28, 50, 15, 0.885);
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 nav ul {
   margin: 0;
