@@ -4,9 +4,10 @@
 }
 body {
 margin: 0;
+background-color: black;
 }
 nav {
-  background-color: rgba(28, 50, 15, 0.885);
+  background-color: white;
   position: sticky;
   top: 0;
   left: 0;
@@ -17,13 +18,13 @@ nav ul {
   padding: 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   list-style-type: none;
 }
 nav ul li a{
   display: inline-block;
   padding: 15px;
-  color: aliceblue;
+  color: goldenrod;
   text-decoration: none ;
   font-weight: 700;
   font-family:'Kaushan Script';
@@ -33,14 +34,222 @@ nav ul li a:hover{
   color: red;
   text-decoration: underline;
 }
-header{
-  background-image: url(./bg2.jpg);
-  height: 100vh;
-  background-size: cover;
-  color: white;
+nav ul li img{
+  height: 60px;
+}
+header img{
+  width: 30vw;
+
+}
+header h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 5vw;
+  margin-left: 8vw;
+  margin-bottom: 0;
+  color: aliceblue;
+}
+div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 13vh;
+}
+.div1{
   display: flex;
   flex-direction: column;
- justify-content: center;
- align-items: center;
- padding: 23%;
 }
+.div1 p{
+  margin-left: 8vw;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 3vh;
+  color: aliceblue;
+}
+section {
+  margin-top: 300px;
+}
+section .div2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+section img{
+  width: 35vw ;
+  margin: 20px 20px;
+}
+section h3{
+  margin-left: 8vw;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  text-align: center;
+  font-style: italic;
+  font-size: 2vw;
+  color: aliceblue;
+}
+section strong{
+  color: rgb(157, 104, 11);
+}
+.section1 {
+  display: flex;
+  flex-direction: row;
+}
+.section1 img{
+  width: 60%;
+  margin: 0;
+  padding: 0;
+}
+.section1 q{
+  color: rgba(255, 0, 0, 0.618);
+  margin-top: 20vh;
+  font-size: 2vw;
+}
+video{
+  width: 60vw;
+  margin: 10vw;
+  margin-left: 20vw;
+}
+footer {
+background-color: azure;
+}
+footer .div3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2vw;
+  font-weight: 500;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+.div3 ul li a{
+  text-decoration: none;
+  color: black;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+}
+.div4{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2vw;
+  font-weight: 500;
+  color: black;
+  width: 30vw;
+  border: 3px solid black;
+  padding-left: 5vw;
+}
+.header2 img{
+width: 100vw;
+}
+.header2 h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 4vw;
+  font-weight: 500;
+  color: rgb(251, 249, 249);
+  text-align: center;
+}
+.section11{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ 
+}
+.section11 img{
+  width: 20vw;
+}
+.section11 h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 4vw;
+  font-weight: 500;
+  color: rgb(251, 249, 249);
+  text-align: center;
+  padding: 0 500px;
+}
+.section21 .box1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.box1 .mm{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 4vw;
+  font-weight: 500;
+  color: rgba(174, 9, 9, 0.789);
+}
+.box1 h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3vw;
+  font-weight: 500;
+  color: rgb(251, 249, 249);
+}
+.box11 {
+  display: flex;
+  flex-direction: column;
+}
+.box1 p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2vw;
+  font-weight: 500;
+  color: rgb(251, 249, 249);
+}
+.box1 a{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2vw;
+  font-weight: 500;
+  color: rgb(251, 249, 249);
+  text-decoration: none;
+}
+.box1 a:hover{
+  color: blue;
+}
+.section22 .box2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10%;
+}
+.box2 h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 4vw;
+  font-weight: 500;
+  color: rgba(174, 9, 9, 0.789);
+}
+.box2 h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3vw;
+  font-weight: 500;
+  color: rgb(251, 249, 249);
+}
+.box2 p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2vw;
+  font-weight: 500;
+  color: rgb(251, 249, 249); 
+}
+.box12 {
+  display: flex;
+  flex-direction: column;
+}
+.box2 a{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2vw;
+  font-weight: 500;
+  color: rgb(251, 249, 249);
+  text-decoration: none; 
+}
+.box2 a:hover{
+  color: blue;
+}
+
+.abouthead img {
+   margin-left: 35%;
+   text-align: center;
+   margin-top: 10%;
+}
+.headest {
+  margin: 10% 30%;
+}
+
+
+
