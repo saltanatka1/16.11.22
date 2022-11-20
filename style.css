@@ -125,9 +125,20 @@ footer .div3{
   text-decoration: none;
   color: black;
 }
+.div3 ul li{
+  list-style-type: none;
+}
+.div3 span{
+  margin-left: 5%;
+  font-style: italic;
+  font-weight: 700;
+}
 footer {
   display: flex;
   flex-direction: row;
+}
+footer ul li img{
+  width: 3vw;
 }
 .div4{
   font-family: 'Times New Roman', Times, serif;
@@ -249,7 +260,17 @@ width: 100vw;
 }
 .headest {
   margin: 10% 30%;
-}
 
+}
+.contacts{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.contacts h1{
+  color: whitesmoke;
+  font-style: italic ;
+  font-size: 5vw;
+}
 
 
